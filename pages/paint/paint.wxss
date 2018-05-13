@@ -1,0 +1,82 @@
+.paintcontainer {
+  height: 100%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 9px 1px;
+  
+} 
+.myCanvas{
+  margin: 0 auto;
+  height: 430px;
+  width: 96%;
+  display: block;
+
+
+}
+
+.box{
+ 
+  border-color: grey;
+  width: 51px;
+  height: 51px;
+  background-color: cornflowerblue;
+  margin: 8px;
+  border-radius: 50%;
+}
+.box1{
+  margin: 9px 9px 9px 16px;
+  background:url('http://ozry0hf50.bkt.clouddn.com/%E8%89%B2%E5%9D%97%EF%BC%8D%E9%92%A2%E7%AC%94.svg');
+  background-size: cover;
+}
+
+.box2{
+  
+  background:url('http://ozry0hf50.bkt.clouddn.com/%E8%89%B2%E5%9D%97%EF%BC%8D%E7%94%BB%E7%AC%94.svg');
+  background-size: cover;
+}
+
+.box3{
+ 
+  background:url('http://ozry0hf50.bkt.clouddn.com/%E6%A9%A1%E7%9A%AE%E6%93%A6.svg');
+  background-size: cover;
+}
+.box4{
+  
+  background-color: #aaa;
+  
+}
+
+.box5{
+ 
+  background-color: #ff9900;
+}
+
+.box6{
+  margin: 9px 9px 9px 16px;
+  
+   background-color: #EEEE00;
+}
+
+.box7{
+ 
+  background-color: #43CD80;
+}
+.box8{
+ 
+  background-color: #000;
+}
+.box9{
+ 
+  background-color:cornflowerblue ;
+}
+.box10{
+ 
+ background-color: #cc0033;
+}
+
+.canvas_tools{
+   display: flex;
+   margin: 0 auto;
+}
+

@@ -1,0 +1,15 @@
+
+<view>{{a1}}</view>
+
+<view>
+  <canvas></canvas>
+</view>
+
+
+<view>
+  <map longitude="{{longitude}}" latitude="{{latitude}}"></map>
+</view>
+<view>
+  <text>\n</text>
+  <image src='/images/passing.JPEG' mode='widthFix'></image>
+</view>

@@ -1,0 +1,48 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}  
+
+.usermotto { 
+
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: grey;
+}
+
+.usermotto {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  color:white;
+  border: 20px;
+  border-color: cornflowerblue;
+  background-color: #43CD80;
+  padding: 6px 36px;
+  border-radius: 16px;
+  width:36%;
+}
+
+.user-count {
+  
+  color:cornflowerblue;
+ 
+}
+
+.user-map {
+  border-radius: 16px;
+
+}

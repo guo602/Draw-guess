@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/paint/paint"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#43CD80",
+    "navigationBarTitleText": "Draw-Guess",
+    "navigationBarTextStyle":"white"
+  }
+}

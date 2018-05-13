@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="_container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> Occuring </button>
+    <block wx:else>
+      <image bindtap="bindViewTap_" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  
+
+  <view class="usermotto" bindtap="move" >
+    {{op}}
+
+  </view>
+
+
+</view>
